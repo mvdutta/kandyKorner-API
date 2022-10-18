@@ -3,25 +3,25 @@
     {
       "id": 1,
       "fullName": "Richard Parker Dutta",
-      "email": "RPTheOrange@cuteCats.com",
+      "email": "RPTheOrange@Cats.com",
       "isStaff": true
     },
     {
       "id": 2,
       "fullName": "Tori Dutta",
-      "email": "ToriTheTornado@cuteCats.com",
+      "email": "ToriTheTornado@Cats.com",
       "isStaff": true
     },
     {
       "id": 3,
       "fullName": "Lily Dutta",
-      "email": "LilyTheBear@cuteCats.com",
+      "email": "LilyTheBear@Cats.com",
       "isStaff": true
     },
     {
       "id": 4,
       "fullName": "Samwise Gamgee",
-      "email": "gamgee.gardener@gardiners.org",
+      "email": "gamgee.s@gardiners.org",
       "isStaff": false
     },
     {
@@ -41,22 +41,34 @@
       "fullName": "Legolas Greenleaf",
       "email": "legolas.elf@woodlandElves.com",
       "isStaff": true
+    },
+    {
+      "id": 8,
+      "fullName": "Gollum",
+      "email": "my-p@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 9,
+      "fullName": "Arwen",
+      "email": "elf@gmail.com",
+      "isStaff": true
     }
   ],
   "customers": [
     {
       "id": 1,
-      "LoyaltyNumber": 23573,
+      "loyaltyNum": 23573,
       "userId": 4
     },
     {
       "id": 2,
-      "LoyaltyNumber": 24897,
+      "loyaltyNum": 24897,
       "userId": 5
     },
     {
       "id": 3,
-      "LoyaltyNumber": 20012,
+      "loyaltyNum": 20012,
       "userId": 6
     }
   ],
@@ -86,7 +98,7 @@
       "id": 4,
       "startDate": "Fri Apr 10 2022 21:24:29 GMT-0500 (Central Daylight Time)",
       "userId": 7,
-      "payRate": 32.0,
+      "payRate": 32,
       "locationId": 3
     }
   ],
@@ -95,35 +107,31 @@
       "id": 1,
       "name": "Green Hills Mall",
       "address": "2126 Abbott Martin Road",
-      "squareFootage": 1000,
-      "locationId": 1
+      "squareFeet": 1000
     },
     {
       "id": 2,
       "name": "12 South Nashville",
       "address": "2318 12th Avenue South",
-      "squareFootage": 2400,
-      "locationId": 2
+      "squareFeet": 2400
     },
     {
       "id": 3,
       "name": "Downtown Nashville",
       "address": "500 Church Street",
-      "squareFootage": 1800,
-      "locationId": 3
+      "squareFeet": 1800
     },
     {
       "id": 4,
       "name": "Cool Springs Galleria",
       "address": "1800 Galleria Blvd",
-      "squareFootage": 900,
-      "locationId": 4
+      "squareFeet": 900
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Pepsi",
+      "name": "Pepsi Bottle",
       "price": 1.56,
       "productTypeId": 5
     },
@@ -162,6 +170,54 @@
       "name": "Gummy Bears",
       "price": 1.99,
       "productTypeId": 4
+    },
+    {
+      "id": 8,
+      "name": "Large Easter Bunny",
+      "price": 7.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 9,
+      "name": "Case of Root Beer",
+      "price": 12.99,
+      "productTypeId": 5
+    },
+    {
+      "name": "Gulab Jamun",
+      "price": "3.99",
+      "productTypeId": 6,
+      "id": 10
+    },
+    {
+      "name": "Case of Coke",
+      "price": "8.59",
+      "productTypeId": 5,
+      "id": 11
+    },
+    {
+      "name": "Animal Crackers",
+      "price": "2.99",
+      "productTypeId": 7,
+      "id": 12
+    },
+    {
+      "name": "Snickerdoodle",
+      "price": "3.85",
+      "productTypeId": 7,
+      "id": 13
+    },
+    {
+      "name": "Truffles",
+      "price": "2.50",
+      "productTypeId": 3,
+      "id": 14
+    },
+    {
+      "name": "Chocolate Covered Almonds",
+      "price": "2.99",
+      "productTypeId": 3,
+      "id": 15
     }
   ],
   "productTypes": [
@@ -184,56 +240,64 @@
     {
       "id": 5,
       "productType": "Soda"
+    },
+    {
+      "id": 6,
+      "productType": "Indian Sweet"
+    },
+    {
+      "id": 7,
+      "productType": "Cookies"
     }
   ],
   "purchases": [
     {
-       "id": 1,
-       "customerId": 2,
-       "productId": 4,
-       "units": 3    
+      "id": 1,
+      "customerId": 2,
+      "productId": 4,
+      "units": 3
     },
     {
-        "id": 2,
-        "customerId": 2,
-        "productId": 1,
-        "units": 6    
-     },
-     {
-        "id": 3,
-        "customerId": 1,
-        "productId": 5,
-        "units": 12    
-     },
-     {
-        "id": 4,
-        "customerId": 1,
-        "productId": 4,
-        "units": 7    
-     },
-     {
-        "id": 5,
-        "customerId": 3,
-        "productId": 4,
-        "units": 12    
-     },
-     {
-        "id": 6,
-        "customerId": 3,
-        "productId": 2,
-        "units": 3    
-     },
-     {
-        "id": 7,
-        "customerId": 2,
-        "productId": 6,
-        "units": 8    
-     },
-     {
-        "id": 8,
-        "customerId": 1,
-        "productId": 3,
-        "units": 5    
-     }
+      "id": 2,
+      "customerId": 2,
+      "productId": 1,
+      "units": 6
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "productId": 5,
+      "units": 12
+    },
+    {
+      "id": 4,
+      "customerId": 1,
+      "productId": 4,
+      "units": 7
+    },
+    {
+      "id": 5,
+      "customerId": 3,
+      "productId": 4,
+      "units": 12
+    },
+    {
+      "id": 6,
+      "customerId": 3,
+      "productId": 2,
+      "units": 3
+    },
+    {
+      "id": 7,
+      "customerId": 2,
+      "productId": 6,
+      "units": 8
+    },
+    {
+      "id": 8,
+      "customerId": 1,
+      "productId": 3,
+      "units": 5
+    }
   ]
 }
