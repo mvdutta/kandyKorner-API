@@ -3,49 +3,49 @@
     {
       "id": 1,
       "fullName": "Richard Parker Dutta",
-      "email": "RPTheOrange@Cats.com",
+      "email": "RP@cats.com",
       "isStaff": true
     },
     {
       "id": 2,
       "fullName": "Tori Dutta",
-      "email": "ToriTheTornado@Cats.com",
+      "email": "tori@cats.com",
       "isStaff": true
     },
     {
       "id": 3,
       "fullName": "Lily Dutta",
-      "email": "LilyTheBear@Cats.com",
+      "email": "lily@cats.com",
       "isStaff": true
     },
     {
       "id": 4,
       "fullName": "Samwise Gamgee",
-      "email": "gamgee.s@gardiners.org",
+      "email": "samwise@hobbits.org",
       "isStaff": false
     },
     {
       "id": 5,
       "fullName": "Frodo Baggins",
-      "email": "frodo.b@ringbearers.com",
+      "email": "frodo@hobbits.com",
       "isStaff": false
     },
     {
       "id": 6,
       "fullName": "Bilbo Baggins",
-      "email": "bilbo.b@ringbearers.com",
+      "email": "bilbo@hobbits.com",
       "isStaff": false
     },
     {
       "id": 7,
       "fullName": "Legolas Greenleaf",
-      "email": "legolas.elf@woodlandElves.com",
+      "email": "legolas.elf@elf.com",
       "isStaff": true
     },
     {
       "id": 8,
       "fullName": "Gollum",
-      "email": "my-p@gmail.com",
+      "email": "myprecious@gmail.com",
       "isStaff": false
     },
     {
@@ -53,6 +53,30 @@
       "fullName": "Arwen",
       "email": "elf@gmail.com",
       "isStaff": true
+    },
+    {
+      "fullName": "Elrond",
+      "email": "elrond@elf.com",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "fullName": "Durin",
+      "email": "durin@dwarf.com",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "fullName": "Smaug",
+      "email": "smaug@dragons.com",
+      "isStaff": true,
+      "id": 12
+    },
+    {
+      "fullName": "Galadriel",
+      "email": "elf@elf.com",
+      "isStaff": true,
+      "id": 13
     }
   ],
   "customers": [
@@ -70,6 +94,11 @@
       "id": 3,
       "loyaltyNum": 20012,
       "userId": 6
+    },
+    {
+      "id": 4,
+      "loyaltyNum": 20,
+      "userId": 8
     }
   ],
   "employees": [
@@ -100,6 +129,41 @@
       "userId": 7,
       "payRate": 32,
       "locationId": 3
+    },
+    {
+      "id": 5,
+      "startDate": "Fri Apr 11 2022 21:24:29 GMT-0500 (Central Daylight Time)",
+      "userId": 9,
+      "payRate": 33.33,
+      "locationId": 2
+    },
+    {
+      "startDate": "Friday October 11, 2022",
+      "payRate": 50.46,
+      "userId": 10,
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "startDate": "Friday October 18, 2022",
+      "payRate": 16.23,
+      "userId": 11,
+      "locationId": 1,
+      "id": 7
+    },
+    {
+      "startDate": "October 18, 2020",
+      "payRate": 23.54,
+      "userId": 12,
+      "locationId": 3,
+      "id": 8
+    },
+    {
+      "startDate": "July 7, 2019",
+      "payRate": 60.75,
+      "userId": 13,
+      "locationId": 4,
+      "id": 9
     }
   ],
   "locations": [
@@ -185,45 +249,63 @@
     },
     {
       "name": "Gulab Jamun",
-      "price": "3.99",
+      "price": 3.99,
       "productTypeId": 6,
       "id": 10
     },
     {
       "name": "Case of Coke",
-      "price": "8.59",
+      "price": 8.59,
       "productTypeId": 5,
       "id": 11
     },
     {
       "name": "Animal Crackers",
-      "price": "2.99",
+      "price": 2.99,
       "productTypeId": 7,
       "id": 12
     },
     {
       "name": "Snickerdoodle",
-      "price": "3.85",
+      "price": 3.85,
       "productTypeId": 7,
       "id": 13
     },
     {
       "name": "Truffles",
-      "price": "2.50",
+      "price": 2.5,
       "productTypeId": 3,
       "id": 14
     },
     {
       "name": "Chocolate Covered Almonds",
-      "price": "2.99",
+      "price": 2.99,
       "productTypeId": 3,
       "id": 15
     },
     {
       "name": "Soan Papdi",
-      "price": "5.99",
+      "price": 5.99,
       "productTypeId": 6,
       "id": 16
+    },
+    {
+      "name": "Bubble Gum",
+      "price": 0.75,
+      "productTypeId": 2,
+      "id": 17
+    },
+    {
+      "name": "Sprite",
+      "price": 1,
+      "productTypeId": 5,
+      "id": 18
+    },
+    {
+      "name": "RC Cola",
+      "price": 1.25,
+      "productTypeId": 5,
+      "id": 19
     }
   ],
   "productTypes": [
@@ -401,6 +483,21 @@
       "id": 19,
       "locationId": 4,
       "productId": 1
+    },
+    {
+      "locationId": 2,
+      "productId": 17,
+      "id": 20
+    },
+    {
+      "locationId": 4,
+      "productId": 18,
+      "id": 21
+    },
+    {
+      "locationId": 2,
+      "productId": 19,
+      "id": 22
     }
   ]
 }
