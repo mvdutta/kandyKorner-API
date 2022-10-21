@@ -61,12 +61,6 @@
       "id": 10
     },
     {
-      "fullName": "Durin",
-      "email": "durin@dwarf.com",
-      "isStaff": true,
-      "id": 11
-    },
-    {
       "fullName": "Smaug",
       "email": "smaug@dragons.com",
       "isStaff": true,
@@ -74,31 +68,31 @@
     },
     {
       "fullName": "Galadriel",
-      "email": "elf@elf.com",
+      "email": "elf@elf.org",
       "isStaff": true,
       "id": 13
     }
   ],
   "customers": [
     {
-      "id": 1,
-      "loyaltyNum": 23573,
-      "userId": 4
+      "loyaltyNum": 2365,
+      "userId": 4,
+      "id": 1
     },
     {
-      "id": 2,
-      "loyaltyNum": 24897,
-      "userId": 5
+      "loyaltyNum": 6989,
+      "userId": 5,
+      "id": 2
     },
     {
-      "id": 3,
-      "loyaltyNum": 20012,
-      "userId": 6
+      "loyaltyNum": 6358,
+      "userId": 6,
+      "id": 3
     },
     {
-      "id": 4,
-      "loyaltyNum": 20,
-      "userId": 8
+      "loyaltyNum": 2067,
+      "userId": 8,
+      "id": 4
     }
   ],
   "employees": [
@@ -145,13 +139,6 @@
       "id": 6
     },
     {
-      "startDate": "Friday October 18, 2022",
-      "payRate": 16.23,
-      "userId": 11,
-      "locationId": 1,
-      "id": 7
-    },
-    {
       "startDate": "October 18, 2020",
       "payRate": 23.54,
       "userId": 12,
@@ -159,8 +146,8 @@
       "id": 8
     },
     {
-      "startDate": "July 7, 2019",
-      "payRate": 60.75,
+      "startDate": "10/13/2019",
+      "payRate": 25.98,
       "userId": 13,
       "locationId": 4,
       "id": 9
@@ -340,52 +327,64 @@
   ],
   "purchases": [
     {
-      "id": 1,
-      "customerId": 2,
-      "productId": 4,
-      "units": 3
+      "customerId": 4,
+      "productId": 10,
+      "units": 0,
+      "id": 4
     },
     {
-      "id": 2,
-      "customerId": 2,
-      "productId": 1,
-      "units": 6
-    },
-    {
-      "id": 3,
-      "customerId": 1,
-      "productId": 5,
-      "units": 12
-    },
-    {
-      "id": 4,
-      "customerId": 1,
-      "productId": 4,
-      "units": 7
-    },
-    {
-      "id": 5,
-      "customerId": 3,
-      "productId": 4,
-      "units": 12
-    },
-    {
-      "id": 6,
-      "customerId": 3,
-      "productId": 2,
-      "units": 3
-    },
-    {
-      "id": 7,
-      "customerId": 2,
-      "productId": 6,
-      "units": 8
-    },
-    {
-      "id": 8,
-      "customerId": 1,
+      "customerId": 4,
       "productId": 3,
-      "units": 5
+      "units": 0,
+      "id": 5
+    },
+    {
+      "customerId": 4,
+      "productId": 1,
+      "units": 0,
+      "id": 6
+    },
+    {
+      "customerId": 4,
+      "productId": 15,
+      "units": 0,
+      "id": 7
+    },
+    {
+      "customerId": 4,
+      "productId": 8,
+      "units": 0,
+      "id": 8
+    },
+    {
+      "customerId": 4,
+      "productId": 6,
+      "units": 0,
+      "id": 9
+    },
+    {
+      "customerId": 5,
+      "productId": 17,
+      "units": 0,
+      "id": 10
+    },
+    {
+      "customerId": 5,
+      "productId": 4,
+      "units": 0,
+      "id": 11
+    },
+    {
+      "customerId": 5,
+      "productId": 6,
+      "units": 0,
+      "id": 12
+    },
+    {
+      "customerId": 5,
+      "productId": 16,
+      "units": 0,
+      "id": 13
     }
   ],
   "productLocation": [
